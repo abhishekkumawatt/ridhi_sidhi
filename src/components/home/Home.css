@@ -1,0 +1,46 @@
+.main1{
+    background-image: url('../../assets/images/bg_image_hardware.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 70pc;
+    height: 76vh;
+    margin: -190px 0 0 190px;
+    border-radius: 6px;
+}
+.hardwarecards{
+    display: flex;
+    justify-content: space-around;
+}
+.bg_img{
+    background-image: url("../../assets/images/modularkitchen_bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 34.4pc;
+    height: 55.5pc;
+    margin: 97px 0 0 60px;
+    border-radius: 6px;
+
+}
+.main3{
+    background-image: url('../../assets/images/bg_image_hardware.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 70pc;
+    height: 76vh;
+    margin: -190px 0 0 190px;
+    border-radius: 6px;
+}
+.electriccards{
+        display: flex;
+        justify-content: space-around;
+}
+.main6{
+    background-image: url('../../assets/images/bg_image_hardware.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 70pc;
+    height: 76vh;
+    margin: -190px 0 0 190px;
+    border-radius: 6px;
+}
+

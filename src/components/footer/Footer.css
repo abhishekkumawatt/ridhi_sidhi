@@ -1,0 +1,10 @@
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 42, 42);
+    color: white;
+}
+.text-reset{
+    text-decoration: none;
+    line-height: 5px;
+}
