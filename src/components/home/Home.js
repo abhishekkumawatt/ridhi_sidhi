@@ -607,14 +607,16 @@ const Home = () => {
         <MdOutlineDone style={{color:'gold',fontSize:'20px'}}/>Wire & Cables   <MdOutlineDone style={{color:'gold',fontSize:'20px',marginLeft:'36px'}}/>Casing Capping<br/>
         <MdOutlineDone style={{color:'gold',fontSize:'20px'}}/>Gangbox   <MdOutlineDone style={{color:'gold',fontSize:'20px',marginLeft:'73px'}}/>Electrical all Accessories 
         </Card.Text>
-        <Button variant="warning" style={{ height: '42px', width: '130px', fontSize: '14px', marginTop: '10px' }}><b>SHOP NOW  </b><FaArrowRight /></Button>
+        <Link to="/electric">
+        <Button variant="warning" style={{ height: '42px', width: '130px', fontSize: '14px', marginTop: '10px' }}><b>SHOP NOW  </b><FaArrowRight /></Button></Link>
       </Card.Body>
     </Card>
     </div>
     </div>
     <div style={{margin:'0 0 0 400px'}}>
     <img src={rightarrow} style={{height:'70px',width:'170px',margin:'-80px 0 10px 0'}}></img>
-    <Button variant="warning" style={{height:'60px', width:'350px',fontSize:'20px',margin:'-50px 0 40px 0px'}}>Click and See All Items</Button>
+    <Link to="/electric">
+    <Button variant="warning" style={{height:'60px', width:'350px',fontSize:'20px',margin:'-50px 0 40px 0px'}}>Click and See All Items</Button></Link>
     <img src={leftarrow} style={{height:'70px',width:'170px',margin:'-80px 0 10px 0'}}></img>
     </div>
 
@@ -633,7 +635,8 @@ const Home = () => {
             as well as fittings like elbows, tees, unions, and valves that connect the pipes.
             It provides potable water to fixtures like sinks, toilets, showers.
             </Card.Text>
-            <Button variant="warning" style={{ height: '40px', width: '130px', fontSize: '14px', marginTop: '10px' }}><b>SHOP NOW  </b><FaArrowRight /></Button>
+            <Link to="/sanitary">
+            <Button variant="warning" style={{ height: '40px', width: '130px', fontSize: '14px', marginTop: '10px' }}><b>SHOP NOW  </b><FaArrowRight /></Button></Link>
           </Card.Body>
         </Card>
     </div>
@@ -886,14 +889,16 @@ const Home = () => {
         <MdOutlineDone style={{color:'gold',fontSize:'20px'}}/>Wire & Cables   <MdOutlineDone style={{color:'gold',fontSize:'20px',marginLeft:'36px'}}/>Casing Capping<br/>
         <MdOutlineDone style={{color:'gold',fontSize:'20px'}}/>Gangbox   <MdOutlineDone style={{color:'gold',fontSize:'20px',marginLeft:'73px'}}/>Electrical all Accessories 
         </Card.Text>
-        <Button variant="warning" style={{ height: '42px', width: '130px', fontSize: '14px', marginTop: '10px' }}><b>SHOP NOW  </b><FaArrowRight /></Button>
+        <Link to="/sanitary">
+        <Button variant="warning" style={{ height: '42px', width: '130px', fontSize: '14px', marginTop: '10px' }}><b>SHOP NOW  </b><FaArrowRight /></Button></Link>
       </Card.Body>
     </Card>
     </div>
     </div>
     <div style={{margin:'0 0 0 400px'}}>
     <img src={rightarrow} style={{height:'70px',width:'170px',margin:'-80px 0 10px 0'}}></img>
-    <Button variant="warning" style={{height:'60px', width:'350px',fontSize:'20px',margin:'-50px 0 40px 0px'}}>Click and See All Items</Button>
+    <Link to="/sanitary">
+    <Button variant="warning" style={{height:'60px', width:'350px',fontSize:'20px',margin:'-50px 0 40px 0px'}}>Click and See All Items</Button></Link>
     <img src={leftarrow} style={{height:'70px',width:'170px',margin:'-80px 0 10px 0'}}></img>
     </div>
     </div>
