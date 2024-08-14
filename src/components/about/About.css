@@ -6,3 +6,9 @@
     display: flex;
     justify-content: space-between;
 }
+.aboutmain3{
+    border: 2px solid gold;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 15px;
+}
