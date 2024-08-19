@@ -374,7 +374,7 @@ const Home = () => {
               </Card.Text>
               <div style={{display:'flex'}}>
               <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹249.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -388,8 +388,8 @@ const Home = () => {
               63-Amp. 4-Pole Polycarbonate MCB Isolator (White), Standard, Heavy Quality.
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,499.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹849.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -403,7 +403,7 @@ const Home = () => {
               Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,599.00</h5>
               <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
               </div>
             </Card.Body>
@@ -422,13 +422,13 @@ const Home = () => {
           <Card style={{ width: '15rem',marginTop:'30px'}}>
             <Card.Img variant="top" src={motorcapacitor} style={{height:'30vh'}}/>
             <Card.Body>
-              <Card.Title>Motor Capacitor</Card.Title>
+              <Card.Title>Motor Capacitor 1HP</Card.Title>
               <Card.Text>
-              Hinges may be made of flexible material or moving components. Such as the elbow joint.
+              16 mfd Capacitor Motors & Pumps, (match mfd & buy), Polypropylene Film Motor Start Run Capacitor.
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹2,030.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹1,233.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,030.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹233.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -441,11 +441,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>6 & 16 Amp. Soket</Card.Title>
               <Card.Text>
-              Hinges may be made of flexible material or moving components. Such as the elbow joint.
+              Polycarbonate Modular 6 & 16 Amp Socket with Safety Shutter [2m] white color Set of 10 Pcs
               </Card.Text>
               <div style={{display:'flex'}}>
               <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹2,030.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹1,233.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹649.00</h5>
               </div>
             </Card.Body>
           </Card>
