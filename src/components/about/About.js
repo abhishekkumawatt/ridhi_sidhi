@@ -107,11 +107,10 @@ const About = () => {
           <div className="slider-container" style={{ backgroundColor: 'antiquewhite' }}>
             <Slider {...settings}>
               <div>
-                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>Benjamin Franklin is credited with
-                  discovering electricity through his kite experiments in the 1700s, in which he attached a metal key to a kite and flew it during
-                  a thunderstorm. It was during this kite experiment that Benjamin Franklin realized that static electricity was very similar to
-                  thunder. Apart from simplifying our lives at home by inventing electrical appliances, electricity has enabled easy communication through the introduction of telephones and fax machines.Besides,
-                  its use is found in many industries and factories to run large machines.<br />    <br /><b>Benjamin Franklin </b><br/> 1700</h6>
+                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>A hardware store business 
+                  sells tools, building materials, and home improvement products to consumers and contractors. It caters to DIY enthusiasts
+                   and professionals by providing essential items like nails, screws, paint, plumbing supplies, and electrical equipment.Electric Blowers,
+                   Corded Impact Drills,Door closer , Hammer, Hinges, glander, nails,<br />    <br /><b>Benjamin Franklin </b><br/> 1700</h6>
               </div>
               <div>
                 <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>United States scientist and 
