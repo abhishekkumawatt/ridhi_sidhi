@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Header from '../header/Header'
 import "../about/About.css";
 import Footer from '../footer/Footer';
@@ -9,8 +9,10 @@ import { PiLightbulbFilamentThin } from "react-icons/pi";
 import { PiTrophyThin } from "react-icons/pi";
 import { PiScrewdriverThin } from "react-icons/pi";
 import { CiDeliveryTruck } from "react-icons/ci";
-import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import Slider from "react-slick";
+import Button from 'react-bootstrap/Button';
+import { FaArrowRight } from "react-icons/fa6";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const About = () => {
   var settings = {
@@ -19,7 +21,7 @@ const About = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true
+    pauseOnHover: true,
   };
   return (
     <div className='aboutmain'>
@@ -73,60 +75,48 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='aboutmain3'>
-          <h2 style={{ textAlign: 'center', paddingBottom: '10px' }}>Short information of "Electrical"</h2>
-          <div style={{ display: 'flex' }}>
-            <HiOutlineArrowLongRight style={{ fontSize: '40px', paddingBottom: '18px', width: '70px' }} /><h6> Electric :- Apart from simplifying our lives at home by inventing electrical
-              appliances, electricity has enabled easy communication through the introduction of telephones and fax machines.Besides,
-              its use is found in many industries and factories to run large machines. Electrical cables are extensively used in building wiring
-              for lighting, power and control circuits permanently installed in buildings. Since all the circuit conductors required can be
-              installed in a cable at one time, installation labor is saved compared to certain other wiring methods.</h6>
+        <div className='aboutmain3' style={{ display: 'flex' }}>
+          <div className='.' style={{margin:'90px 80px 90px 190px'}}>
+            <h3>Electrical Store</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <Button variant="warning" style={{ height: '40px', width: '130px', fontSize: '14px', marginTop: '20px' }}><b>Shop Now </b><FaArrowRight /></Button>
           </div>
-        </div>
-        <div className='aboutmain3'>
-          <h2 style={{ textAlign: 'center', paddingBottom: '10px' }}>Short information of "Hardware"</h2>
-          <div style={{ display: 'flex' }}>
-            <HiOutlineArrowLongRight style={{ fontSize: '40px', paddingBottom: '18px', width: '70px' }} /><h6> Hardware :- Apart from simplifying our lives at home by inventing electrical
-              appliances, electricity has enabled easy communication through the introduction of telephones and fax machines.Besides,
-              its use is found in many industries and factories to run large machines. Electrical cables are extensively used in building wiring
-              for lighting, power and control circuits permanently installed in buildings. Since all the circuit conductors required can be
-              installed in a cable at one time, installation labor is saved compared to certain other wiring methods.</h6>
-          </div>
-        </div>
-        <div className='aboutmain3'>
-          <h2 style={{ textAlign: 'center', paddingBottom: '10px' }}>Short information of "Sanitary"</h2>
-          <div style={{ display: 'flex' }}>
-            <HiOutlineArrowLongRight style={{ fontSize: '40px', paddingBottom: '18px', width: '70px' }} /><h6> Sanitary :- Apart from simplifying our lives at home by inventing electrical
-              appliances, electricity has enabled easy communication through the introduction of telephones and fax machines.Besides,
-              its use is found in many industries and factories to run large machines. Electrical cables are extensively used in building wiring
-              for lighting, power and control circuits permanently installed in buildings. Since all the circuit conductors required can be
-              installed in a cable at one time, installation labor is saved compared to certain other wiring methods.</h6>
+          <div className='aboutmain4'> <div style={{display:'flex', gap:'440px'}}><h6  style={{color:'gold',paddingTop:'90px'}}>Stock of Products </h6><h6 style={{color:'gold',paddingTop:'90px'}}>90%</h6></div>
+              <ProgressBar variant="black" now={90} style={{height:'4px', width:'600px', margin:'0px 135px 20px 0px'}}/><div style={{display:'flex', gap:'460px'}}><h6 style={{color:'gold'}}>Packing Safety</h6><h6 style={{color:'gold'}}>98%</h6></div>
+              <ProgressBar variant="black" now={98}  style={{height:'4px', width:'600px', margin:'0px 80px 20px 0px'}}/><div style={{display:'flex', gap:'449px'}}><h6 style={{color:'gold'}}>Sale of Products </h6><h6 style={{color:'gold'}}>85%</h6></div>
+              <ProgressBar variant="black" now={85}  style={{height:'4px', width:'600px', margin:'0px 80px 20px 0px'}}/><div style={{display:'flex', gap:'485px'}}><h6 style={{color:'gold'}}>Five Rating </h6><h6 style={{color:'gold'}}>75%</h6></div>
+              <ProgressBar variant="black" now={75}  style={{height:'4px', width:'600px', margin:'0px 80px 20px 0px'}}/>
           </div>
         </div>
         <div className='textslider'>
           <div className="slider-container" style={{ backgroundColor: 'antiquewhite' }}>
             <Slider {...settings}>
               <div>
-                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>A hardware store business 
+                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>A Hardware store business
                   sells tools, building materials, and home improvement products to consumers and contractors. It caters to DIY enthusiasts
-                   and professionals by providing essential items like nails, screws, paint, plumbing supplies, and electrical equipment.Electric Blowers,
-                   Corded Impact Drills,Door closer , Hammer, Hinges, glander, nails,<br />    <br /><b>Benjamin Franklin </b><br/> 1700</h6>
+                  and professionals by providing essential items like nails, screws, paint, plumbing supplies, and electrical equipment.Electric Blowers,
+                  Corded Impact Drills,Door closer , Hammer, Hinges, nails etc. Local hardware stores provide personalized service.
+                  The employees at these stores are often knowledgeable about the products they sell and can provide expert advice for your
+                  home improvement projects. They can also help you find the right tools and materials for the job, saving you time and money
+                  in the long run.<br />    <br /><b>Ridhi Sidhi Hardware</b><br /> Hardware</h6>
               </div>
               <div>
-                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>United States scientist and 
-                  philosopher Benjamin Franklin proved through a dangerous experiment in 1752 that the glow of light in the sky is a form of 
-                  electricity. He flew a kite on a rainy day and tied a key at the lower end of its string.Apart from simplifying our lives at home by inventing electrical
-                  appliances, electricity has enabled easy communication through the introduction of telephones and fax machines.Besides,
-                  its use is found in many industries and factories to run large machines. <br />    <br /><b>United States </b> <br/>1752</h6>
+                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>An electrical shop sells
+                  various electrical supplies and devices such as cable channels, electrical sockets, fuse boxes, junction boxes, etc. If
+                  you are looking for a particular item, it is advisable to call or visit them. Electricity is both a basic part of nature
+                  and one of the most widely used forms of energy. The electricity that we use is a secondary energy source because it is
+                  produced by converting primary sources of energy such as coal, natural gas, nuclear energy, solar energy, and wind energy
+                  into electrical power. A shop focused on selling different electrical supplies (cable, cable channels, electric sockets etc)
+                  and electrical devices (electric meters, junction boxes, fuse boxes etc).<br />    <br /><b>Ridhi Sidhi Hardware</b> <br />Electric</h6>
               </div>
               <div>
-                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>However, there are still many
-                   remote areas in the country where electricity is yet to reach. If we go into history, electricity first came to India in
-                    Kolkata (then Calcutta). The first demo of electric lighting was done in Calcutta on 24 July 1879. After Kolkata, 
-                    electricity was brought to Mumbai (Bombay) in 1882.  The first demonstration of electric light was done by PW Fleury and
-                     Company on 24 July 1879 in Calcutta (now Kolkata). On 7 January 1897, Kilburn & Co., as agents of the Indian Electric
-                      Company, secured the Calcutta Electric Lighting License, which was registered in London on 15 January 1897. <br />    <br /><b>
-                    Maharishi Agastya (India) </b><br/>1882</h6>
+                <h6 style={{ textAlign: 'center', margin: '80px 195px 80px 195px', fontFamily: "-moz-initial" }}>Sanitary Ware is the modern
+                  lifestyle that promises a great option of toilets, urinals, Basins, toilet seats, and much more for utmost comfort and
+                  convenience. The high range of Sanitary ware comes with cutting-edge designs that are suited to all sectors and budgets.
+                  The various fixtures and fittings used in bathrooms and kitchens for hygiene purposes, including toilets, sinks, basins,
+                  bidets, and bathtubs.  Any product in your bathroom that is plumbed in, whether that be a shower, sink, bidet or toilet. <br />    <br /><b>
+                    Ridhi Sidhi Hardware </b><br />Sanitary</h6>
               </div>
             </Slider>
           </div>

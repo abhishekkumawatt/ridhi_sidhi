@@ -24,13 +24,13 @@ const header = () => {
         <img src={logo} style={{height:'10vh',width:'21rem', color:'white',paddingTop:'20px'}} alt='' />  
         </div>
         <div className='navbar' style={{color:'white',paddingRight:'35px',paddingTop:'22px',gap:'40px'}}>
-        <Nav.Link href="/">HOME</Nav.Link>
+        <Nav.Link href="/" >HOME</Nav.Link>
             <Nav.Link href="/about">ABOUT</Nav.Link>
             <Nav.Link href="/shop">SHOP</Nav.Link>
             <NavDropdown title="SERVICE" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/electric">Electric</NavDropdown.Item>
+              <NavDropdown.Item href="/electric">Hardware</NavDropdown.Item>
               <NavDropdown.Item href="/hardware">
-                Hardware
+                Electric
               </NavDropdown.Item>
               <NavDropdown.Item href="/sanitary">
                 Sanitary

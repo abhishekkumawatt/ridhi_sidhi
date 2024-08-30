@@ -1,20 +1,54 @@
-.headerwelcome{
-    background-color:antiquewhite;
-    color: rgb(237, 242, 246);
+.headerwelcome {
+    background-color: antiquewhite;
+    color: rgb(246, 249, 251);
     padding: 0 0 0 80px;
     display: flex;
     justify-content: space-between;
 }
-.headerbutton{
+
+.headerbutton {
     padding: 5px 50px 0 0;
 
 }
-.header1{
+
+.header1 {
     padding: 10px 0 35px 194px;
-    background-color:rgb(31, 42, 42);
+    background-color: rgb(31, 42, 42);
     display: flex;
     justify-content: space-between;
 }
-.headericons{
-    padding:28px 150px 0 0;
+
+.headericons {
+    padding: 28px 150px 0 0;
+}
+
+.navbar {
+   ul { 
+  margin: 150px auto 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+a {
+  color: rgb(162, 136, 102);  
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #b4a204;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+   
 }

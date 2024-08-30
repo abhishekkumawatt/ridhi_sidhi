@@ -25,7 +25,7 @@ import Slider from "react-slick";
 import electricimg from "../../assets/images/electricfirstimg.jpg.png";
 import modulerswitch from "../../assets/images/modulerswitch.jpg"
 import fourpollmcb from "../../assets/images/fp_mcb.jpg"
-import cassingcapping from "../../assets/images/cassing_capping.jpg"
+import profilelight from "../../assets/images/profile.light.webp"
 import motorcapacitor from "../../assets/images/motorcapacitor.jpg"
 import sanitaryware from "../../assets/images/sanitaryimg.jpg.png"
 import modulersoket from "../../assets/images/modulersoket.jpg"
@@ -39,6 +39,9 @@ import studylamp from "../../assets/images/studylamp.jpg"
 import entryswitch from "../../assets/images/entryswitch.jpg"
 import leftarrow from "../../assets/images/left-arrow.gif"
 import rightarrow from "../../assets/images/right-arrow.gif"
+import pvcpipe from "../../assets/images/pvc.pipe.4inch.jpg"
+import wallmixer from "../../assets/images/wallmixer.jpg"
+import tabletop from "../../assets/images/tabletop.jpg"
 
 const Home = () => {
   var settings = {
@@ -176,13 +179,13 @@ const Home = () => {
           <Card style={{ width: '15rem',marginTop:'30px'}}>
             <Card.Img variant="top" src={drillbithandel} style={{height:'30vh'}}/>
             <Card.Body>
-              <Card.Title>Drill Bit Handel</Card.Title>
+              <Card.Title>Drill Chuck</Card.Title>
               <Card.Text>
-              Hinges may be made of flexible material or moving components. Such as the elbow joint.
+               Multi Chuck 3mm Rotary Tool for Changing Accessories. Drill Heavy Chuck. 
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹2,030.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹1,233.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹559.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹239.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -396,15 +399,15 @@ const Home = () => {
         </div>
         <div className='card1'>
           <Card style={{ width: '15rem',marginTop:'30px'}}>
-            <Card.Img variant="top" src={cassingcapping} style={{height:'30vh'}} />
+            <Card.Img variant="top" src={profilelight} style={{height:'30vh'}} />
             <Card.Body>
-              <Card.Title>Cassing Capping 1"</Card.Title>
+              <Card.Title>Profile Light</Card.Title>
               <Card.Text >
-              Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
+              Electronic spices 1m Alumunium Profile Groove housing for Led Strip - Pack of 5 piece,Plastic(multi)
               </Card.Text>
               <div style={{display:'flex'}}>
               <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,599.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹449.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -475,11 +478,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>6 & 16 Amp. Multiplug</Card.Title>
               <Card.Text>
-              Hinges may be made of flexible material or moving components. Such as the elbow joint.
+              3 Way Multiplug Adaptor with 1 Universal Socket | 6Amp Multiplug Socket for Home, Office | Pack of 1
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹2,030.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹1,233.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹236.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹133.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -492,11 +495,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>Tubelight 10W</Card.Title>
               <Card.Text>
-              Hinges may be made of flexible material or moving components. Such as the elbow joint.
+              Pride Plus 10W LED Batten B22 Tubelight | Warm White |Energy Efficient |Compact Size|Made in India|Pack of 1
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹2,030.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹1,233.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹399.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹189.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -509,11 +512,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>Emergency LED Bulb</Card.Title>
               <Card.Text>
-              Hinges may be made of flexible material or moving components. Such as the elbow joint.
+              LED 12W Rechargeable Emergency Inverter LED Bulb, Cool Day Light, White, Upto 4 Hours Battery, b22d
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹2,030.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹1,233.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹599.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹327.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -534,11 +537,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>Water Alarm</Card.Title>
               <Card.Text >
-              Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
+              Water Tank Alarm - Overflow Bell, Human Voice, 100% Shock Proof - Made in India - One Year Warranty
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹10,499.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹5,349.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹259.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -549,11 +552,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>Study Lamp</Card.Title>
               <Card.Text >
-              Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
+              Level Brightness Mode LED Study Lamp with Pen Holder, 6 Month Warranty (Plastic, White, Pack of 1)
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,499.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹599.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -565,13 +568,13 @@ const Home = () => {
           <Card style={{ width: '15rem',marginTop:'30px'}}>
             <Card.Img variant="top" src={entryswitch} style={{height:'30vh'}} />
             <Card.Body>
-              <Card.Title>Entry Switch</Card.Title>
+              <Card.Title>Card Entry Switch</Card.Title>
               <Card.Text >
-              Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
+              Hotel Card Switch Energy Saving Switch Key Card Switch Electricity Panel Switch
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,499.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹999.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -583,11 +586,11 @@ const Home = () => {
             <Card.Body>
               <Card.Title>Call Bell</Card.Title>
               <Card.Text >
-              Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
+              Long Range Wireless Heavy Duty Remote Bell, Calling Bell for Office , Home and Commercial use
               </Card.Text>
               <div style={{display:'flex'}}>
-              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹499.00</h5>
-              <h5 style={{ textDecoration: 'underline' }}>₹349.00</h5>
+              <h5 style={{ textDecoration: 'line-through', color:'gold' }}>₹1,299.00</h5>
+              <h5 style={{ textDecoration: 'underline' }}>₹449.00</h5>
               </div>
             </Card.Body>
           </Card>
@@ -648,9 +651,9 @@ const Home = () => {
         <div className='hardwarecards'>
       <div className='card1'>
           <Card style={{ width: '15rem',marginTop:'30px'}}>
-            <Card.Img variant="top" src={channel} style={{height:'30vh'}} />
+            <Card.Img variant="top" src={pvcpipe} style={{height:'30vh'}} />
             <Card.Body>
-              <Card.Title>Channel</Card.Title>
+              <Card.Title>PVC 4inch Pipe</Card.Title>
               <Card.Text >
               Smooth Flow Telescopic Double Ball Bearing Channel Slides for Drawer cupboards Wardrobe Kitchen Basket.
               </Card.Text>
@@ -664,9 +667,9 @@ const Home = () => {
 
         <div className='card2'>
           <Card style={{ width: '15rem',marginTop:'30px'}}>
-            <Card.Img variant="top" src={doorcloser} style={{height:'30vh'}}/>
+            <Card.Img variant="top" src={wallmixer} style={{height:'30vh'}}/>
             <Card.Body>
-              <Card.Title>Door Closer</Card.Title>
+              <Card.Title>Wall Mixer</Card.Title>
               <Card.Text>
               Designed with a weight capacity of 90kg, this door closer ensures smooth and controlled door operation.
               </Card.Text>
@@ -680,9 +683,9 @@ const Home = () => {
 
         <div className='card3'>
           <Card style={{ width: '15rem',marginTop:'30px'}}>
-            <Card.Img variant="top" src={hardwarehinges} style={{height:'30vh'}}/>
+            <Card.Img variant="top" src={tabletop} style={{height:'30vh'}}/>
             <Card.Body>
-              <Card.Title>Door Locks</Card.Title>
+              <Card.Title>Table Top</Card.Title>
               <Card.Text>
               Luxury Mortise Door Locks for Main Door, Bedroom, Handle Set with 3 Brass Key for Home | Office | Hotel
               </Card.Text>
