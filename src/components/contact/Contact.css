@@ -1,0 +1,25 @@
+.contactmain1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    padding: 100px 0 100px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.getintouch {
+    background-image: url('../../assets/images/contactpage.1stimg.jpg');
+    background-repeat: no-repeat;
+    color: rgb(5, 11, 6);
+    padding: 15px 0 0px 20px;
+}
+.contactmain2{
+    display: flex;
+    margin: 100px 200px 100px 190px ;
+}
+.contactmain3{
+    background-color: bisque;
+    padding: 50px;
+    margin: 0px 150px 100px 190px;
+    border-radius: 5px;
+}

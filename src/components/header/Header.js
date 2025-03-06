@@ -28,8 +28,8 @@ const header = () => {
             <Nav.Link href="/about">ABOUT</Nav.Link>
             <Nav.Link href="/shop">SHOP</Nav.Link>
             <NavDropdown title="SERVICE" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/electric">Hardware</NavDropdown.Item>
-              <NavDropdown.Item href="/hardware">
+              <NavDropdown.Item href="/hardware">Hardware</NavDropdown.Item>
+              <NavDropdown.Item href="/electric">
                 Electric
               </NavDropdown.Item>
               <NavDropdown.Item href="/sanitary">
@@ -40,8 +40,8 @@ const header = () => {
             <Nav.Link href="/contact">CONTACT US</Nav.Link>
             </div>
             <div className='headericons'>
-            <FaSearch style={{color:'white',fontSize:'20px',marginRight:'20px'}}/>
-            <FaCartArrowDown style={{color:'white',fontSize:'20px'}}/>
+            <FaSearch style={{color:'rgb(162, 136, 102)',fontSize:'20px',marginRight:'20px'}}/>
+            <FaCartArrowDown style={{color:'rgb(162, 136, 102)',fontSize:'20px'}}/>
             </div>
            
     </div>

@@ -13,6 +13,7 @@ import Slider from "react-slick";
 import Button from 'react-bootstrap/Button';
 import { FaArrowRight } from "react-icons/fa6";
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   var settings = {
@@ -46,7 +47,7 @@ const About = () => {
             <h6 style={{ fontFamily: 'initial', padding: '20px 0 0px 0' }}>*Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
           </div>
           <div className='bulbaboutpage'>
-            <img src={bulb_aboutpage} style={{ borderRadius: '100%', height: '180px', width: '180px', position: 'absolute', margin: '210px 0 0 111px' }}></img>
+            <img src={bulb_aboutpage} style={{ borderRadius: '100%', height: '170px', width: '180px', position: 'absolute', margin: '210px 0 0 111px' }}></img>
           </div>
 
           <div className='aboutpage1stimg'>
@@ -80,7 +81,8 @@ const About = () => {
             <h3>Electrical Store</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-            <Button variant="warning" style={{ height: '40px', width: '130px', fontSize: '14px', marginTop: '20px' }}><b>Shop Now </b><FaArrowRight /></Button>
+              <Link to ="/">
+            <Button variant="warning" style={{ height: '40px', width: '130px', fontSize: '14px', marginTop: '20px' }}><b>Shop Now </b><FaArrowRight /></Button></Link>
           </div>
           <div className='aboutmain4'> <div style={{display:'flex', gap:'440px'}}><h6  style={{color:'gold',paddingTop:'90px'}}>Stock of Products </h6><h6 style={{color:'gold',paddingTop:'90px'}}>90%</h6></div>
               <ProgressBar variant="black" now={90} style={{height:'4px', width:'600px', margin:'0px 135px 20px 0px'}}/><div style={{display:'flex', gap:'460px'}}><h6 style={{color:'gold'}}>Packing Safety</h6><h6 style={{color:'gold'}}>98%</h6></div>

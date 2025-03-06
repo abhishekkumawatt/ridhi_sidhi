@@ -1,10 +1,108 @@
-.footer2{
+.footer2 {
     display: flex;
     justify-content: space-around;
     background-color: rgb(31, 42, 42);
     color: white;
 }
-.text-reset{
+
+.text-reset {
     text-decoration: none;
     line-height: 5px;
+}
+
+.aboutus-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.aboutus-hover:hover {
+    color: goldenrod;
+}
+
+.blog-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.blog-hover:hover {
+    color: goldenrod;
+}
+
+.hardware-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.hardware-hover:hover {
+    color: goldenrod;
+}
+
+.electric-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.electric-hover:hover {
+    color: goldenrod;
+}
+
+.sanitary-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.sanitary-hover:hover {
+    color: goldenrod;
+}
+
+.contactus-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.contactus-hover:hover {
+    color: goldenrod;
+}
+
+
+.facebook-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.facebook-hover:hover {
+    color: goldenrod;
+}
+
+.twitter-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.twitter-hover:hover {
+    color: goldenrod;
+}
+
+.linkedin-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.linkedin-hover:hover {
+    color: goldenrod;
+}
+
+.instagram-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.instagram-hover:hover {
+    color: goldenrod;
+}
+
+.telegram-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.telegram-hover:hover {
+    color: goldenrod;
+}
+
+.pinterest-hover {
+    color: rgb(251, 248, 248);
+    transition: color 0.2s ease;
+}
+.pinterest-hover:hover {
+    color: goldenrod;
 }

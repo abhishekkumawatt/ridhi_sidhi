@@ -5,6 +5,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import QRcode from "../../assets/images/scanner.png";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,70 +18,83 @@ const Footer = () => {
                     <p><IoIosCall />  +91 9785098898, 9694490409</p>
                     <p><MdEmail />  ridhisidhi17@gmail.com</p>
                 </div>            
-                <div className='collist1' style={{marginTop:'70px', textDecoration:'none',display:'inline-block'}}>
-                <h6 className='text-uppercase fw-bold mb-4' style={{color:'gold'}}>Usefull Links</h6>
+                <div className='collist1-hover' style={{marginTop:'70px', textDecoration:'none',display:'inline-block'}}>
+                <h6 className='text-uppercase fw-bold mb-4' style={{color:'goldenrod'}}>Usefull Links</h6>
+                <div className='aboutus-hover'>
                 <p>
-                    <a href='#!' className='text-reset'>
+                    <Link to="About" className='text-reset'>
                         About Us
-                    </a>
-                </p>
+                    </Link>
+                </p></div>
+                <div className='blog-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                        Blog
                     </a>
-                </p>
+                </p></div>
+                <div className='hardware-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Hardware
                     </a>
-                </p>
+                </p></div>
+                <div className='electric-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Electric
                     </a>
-                </p>
+                </p></div>
+                <div className='sanitary-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
-                        Senitary
+                        Sanitary
                     </a>
-                </p><p>
+                </p></div>
+                <div className='contactus-hover'>
+                <p>
                     <a href='#!' className='text-reset'>
                         Contact us
                     </a>
-                </p>
+                </p></div>
                 </div>
                 <div className='collist2' style={{margin:'70px 0 70px 0'}}>
-                <h6 className='text-uppercase fw-bold mb-4' style={{color:'gold'}}>Social Media</h6>
+                <h6 className='text-uppercase fw-bold mb-4' style={{color:'goldenrod'}}>Social Media</h6>
+                <div className='facebook-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                        Facebook
                     </a>
-                </p>
+                </p></div>
+                <div className='twitter-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Twitter
                     </a>
-                </p>
+                </p></div>
+                <div className='linkedin-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Linkedin
                     </a>
-                </p>
+                </p></div>
+                <div className='instagram-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Instagram
                     </a>
-                </p>
+                </p></div>
+                <div className='telegram-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Telegram
                     </a>
-                </p>
+                </p></div>
+                <div className='pinterest-hover'>
                 <p>
                     <a href='#!' className='text-reset'>
                         Pinterest
                     </a>
-                </p>
+                </p></div>
                 </div>
                 <div className='qrscanner' >
                     <img src={QRcode} style={{height:'160px',width:'160px',margin:'70px 30px 0 0'}}/>

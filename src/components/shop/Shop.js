@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/Header'
 import "../shop/Shop.css";
+import Footer from '../footer/Footer'
 
 const Shop = () => {
   return (
@@ -12,6 +13,10 @@ const Shop = () => {
             <h6 style={{ margin: '23px 0 0 60pc', fontWeight: '400' }}>Home / </h6>
             <h6 style={{ margin: '23px 145px 0 0px', fontWeight: '400' }}>Shop</h6>
         </div>
+        <div className='shopmain2'>
+          
+        </div>
+        <Footer/>
         </div>
   )
 }
