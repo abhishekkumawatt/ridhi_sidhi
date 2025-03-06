@@ -1,8 +1,130 @@
-.aboutmain1{
+/* .aboutmain1{
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: antiquewhite;
     padding: 100px 0 100px 190px;
     display: flex;
     justify-content: space-between;
-}
+} */
+
+.about-main {
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* About Header */
+  .about-header {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    background: #f8f9fa;
+  }
+  
+  /* About Section */
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .highlight-text {
+    border-left: 4px solid gold;
+    padding-left: 15px;
+    font-style: italic;
+  }
+  
+  .about-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bulb-image {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .main-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    background: antiquewhite;
+  }
+  
+  .why-image {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .why-content {
+    padding: 20px;
+  }
+  
+  .why-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .icon-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 40px;
+  }
+  
+  /* Progress Section */
+  .progress-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  
+  .progress-text {
+    max-width: 400px;
+  }
+  
+  .progress-bars {
+    max-width: 600px;
+  }
+  
+  .progress-item {
+    margin-bottom: 15px;
+  }
+  
+  /* Slider */
+  .slider-container {
+    background: antiquewhite;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-container, .why-choose-us, .progress-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

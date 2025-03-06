@@ -67,8 +67,7 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
+      
       <div className="main" style={{ backgroundColor: "rgb(31, 42, 42)" }}>
         <div
           className="hardwareimg"
